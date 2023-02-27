@@ -1,0 +1,66 @@
+/* Videos Start */
+.videos-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .video-previews {
+    position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .video-previews-item {
+    max-width: 400px;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    background: -o-linear-gradient(309.68deg, rgba(128, 153, 193, 0.11) 33.15%, rgba(182, 182, 182, 0.18) 75.57%, rgba(182, 182, 182, 0.22) 97.57%);
+    background: linear-gradient(140.32deg, rgba(128, 153, 193, 0.11) 33.15%, rgba(182, 182, 182, 0.18) 75.57%, rgba(182, 182, 182, 0.22) 97.57%);
+    border-radius: 5px;
+    padding: 40px 20px;
+    margin: 15px;
+    transition: all 0.2s linear;
+    -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  }
+  .video-previews-item img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .video-previews-item:hover {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    -webkit-transform: scale(0.988) !important;
+        -ms-transform: scale(0.988) !important;
+            transform: scale(0.988) !important;
+  }
+  .video-previews .slick-next-videos {
+    right: 0px;
+  }
+  .video-previews .slick-prev-videos {
+    left: 0px;
+  }
+  
+  .video-preview-info {
+    margin-top: 30px;
+  }
+  .video-preview-info_date {
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    font-size: 14px;
+    color: #292930;
+  }
+  .video-preview-info_name {
+    font-size: 25px;
+  }
+  
+  /* Videos End */

@@ -1,0 +1,299 @@
+/* Industry Solutions Start */
+.industry-solutions {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .industry-solutions .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 5px;
+    gap: 0.1rem;
+    margin-bottom: 0.1rem;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 1024px) {
+    .industry-solutions .row {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin: 0px 50px;
+      margin-bottom: 0.1rem;
+    }
+  }
+  @media (max-width: 620px) {
+    .industry-solutions .row {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
+  .industry-solutions .solution-item:nth-child(1), .industry-solutions .solution-item:nth-child(2), .industry-solutions .solution-item:nth-child(5), .industry-solutions .solution-item:nth-child(6), .industry-solutions .solution-item:nth-child(7), .industry-solutions .solution-item:nth-child(8) {
+    width: 20%;
+    height: 250px;
+    overflow: hidden;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  @media (max-width: 1024px) {
+    .industry-solutions .solution-item:nth-child(1), .industry-solutions .solution-item:nth-child(2), .industry-solutions .solution-item:nth-child(5), .industry-solutions .solution-item:nth-child(6), .industry-solutions .solution-item:nth-child(7), .industry-solutions .solution-item:nth-child(8) {
+      width: 49.8%;
+      border-radius: 5px;
+    }
+  }
+  @media (max-width: 620px) {
+    .industry-solutions .solution-item:nth-child(1), .industry-solutions .solution-item:nth-child(2), .industry-solutions .solution-item:nth-child(5), .industry-solutions .solution-item:nth-child(6), .industry-solutions .solution-item:nth-child(7), .industry-solutions .solution-item:nth-child(8) {
+      width: 100%;
+    }
+  }
+  .industry-solutions img {
+    width: 100%;
+    height: 100%;
+  }
+  .industry-solutions .solution-item:nth-child(3), .industry-solutions .solution-item:nth-child(4), .industry-solutions .solution-item:nth-child(9) {
+    width: 59%;
+    overflow: hidden;
+    height: 250px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  @media (max-width: 1024px) {
+    .industry-solutions .solution-item:nth-child(3), .industry-solutions .solution-item:nth-child(4), .industry-solutions .solution-item:nth-child(9) {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+  .industry-solutions .wide img {
+    width: 100%;
+    height: auto;
+  }
+  .industry-solutions .solution-item:nth-child(10), .industry-solutions .solution-item:nth-child(11) {
+    width: 49.8%;
+    height: 250px;
+  }
+  @media (max-width: 1024px) {
+    .industry-solutions .solution-item:nth-child(10), .industry-solutions .solution-item:nth-child(11) {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+  .industry-solutions .row.row-reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .industry-solutions .solution-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .industry-solutions .solution-item .industry-solutions-btn {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    border-radius: 3px;
+  }
+  .industry-solutions .solution-item .industry-solutions-btn a {
+    color: #fff;
+  }
+  .industry-solutions .solution-item-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .industry-solutions .solution-item-inner h4 {
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 20px;
+    z-index: 2;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    text-align: center;
+  }
+  .industry-solutions .solution-item .fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 116, 188, 0.33)), color-stop(86.46%, rgba(0, 116, 188, 0.33)), to(rgba(0, 0, 0, 0)));
+    background: -o-linear-gradient(top, rgba(0, 116, 188, 0.33) 0%, rgba(0, 116, 188, 0.33) 86.46%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, rgba(0, 116, 188, 0.33) 0%, rgba(0, 116, 188, 0.33) 86.46%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  .industry-solutions .solution-item:hover h4 {
+    z-index: 2;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    text-shadow: #fff 1px 0 10px;
+  }
+  .industry-solutions .solution-item:hover .industry-solutions-btn {
+    z-index: 2;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -webkit-box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+    background-color: #fff;
+    color: #000;
+  }
+  .industry-solutions .solution-item:hover .industry-solutions-btn a {
+    color: #000;
+  }
+  .industry-solutions .solution-item:hover .fade {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 116, 188, 0.23)), color-stop(86.46%, rgba(0, 116, 188, 0.23)), to(rgba(0, 0, 0, 0)));
+    background: -o-linear-gradient(top, rgba(0, 116, 188, 0.23) 0%, rgba(0, 116, 188, 0.23) 86.46%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, rgba(0, 116, 188, 0.23) 0%, rgba(0, 116, 188, 0.23) 86.46%, rgba(0, 0, 0, 0) 100%);
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  .industry-solutions .hidden {
+    display: none;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  .industry-solutions .show-more-container {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 40px;
+    padding-bottom: 0;
+  }
+  .industry-solutions .show-more {
+    display: inline-block;
+    background-color: transparent;
+    color: #0074BC;
+    border: 1px solid #0074BC;
+    font-size: 20px;
+    padding: 10px 30px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    border-radius: 3px;
+  }
+  .industry-solutions .show-more:hover {
+    background-color: #0074BC;
+    color: #fff;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  
+  .avtoprom {
+    background-image: url("../../../img/avtoprom.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    border-top-left-radius: 5px;
+  }
+  
+  .selhoz {
+    background-image: url("../../../img/selhoz.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  
+  .industry {
+    background-image: url("../../../img/prom.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    border-top-right-radius: 5px;
+  }
+  
+  .healthcare {
+    background-image: url("../../../img/healthcare.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  
+  .electronics {
+    background-image: url("../../../img/electronics.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  
+  .opk {
+    background-image: url("../../../img/opk.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  
+  .sudostroenie {
+    background-image: url("../../../img/sudostroenie.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  
+  .energetica {
+    background-image: url("../../../img/energetica.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  
+  .neftegaz {
+    background-image: url("../../../img/neftegaz2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  
+  .kosmos {
+    background-image: url("../../../img/kosmos.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  
+  .aviaciya {
+    background-image: url("../../../img/aviaciya.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  
+  /* Industry Solutions End */
