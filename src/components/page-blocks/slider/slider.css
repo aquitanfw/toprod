@@ -269,5 +269,40 @@
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
+
+  .mouse-parallax {
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+  }
+  
+  .mouse-parallax-bg {
+    position: absolute;
+    width: 101%;
+    height: 101%;
+    -webkit-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+  }
+  
+  .aviation-parallax {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .energy-parallax {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .electronics-parallax {
+    background-image: url("../../img/electronics-banner-4.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   /* Slider End */
