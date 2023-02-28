@@ -90,6 +90,10 @@
   .slider-img {
     position: relative;
   }
+
+.slider .slick-dots li:before {
+    display: none;
+} 
   
   .banner-info {
     position: absolute;
