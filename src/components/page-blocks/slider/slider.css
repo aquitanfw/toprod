@@ -304,5 +304,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+  .banner-info a {
+    color: #fff;
+  }
   /* Slider End */
